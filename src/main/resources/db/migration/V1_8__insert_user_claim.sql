@@ -15,3 +15,6 @@ VALUES('canSaveAccount', 'true', 1);
 
 INSERT INTO user_claim(claim_type, claim_value, user_id) 
 VALUES('canAccessAccounts', 'true', 1);
+
+INSERT INTO user_claim(claim_type, claim_value, user_id) 
+VALUES('canAddCustomer', 'true', 3);
